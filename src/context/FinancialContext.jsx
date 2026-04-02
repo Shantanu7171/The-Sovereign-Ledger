@@ -9,12 +9,16 @@ export const useFinancial = () => {
 };
 
 const INITIAL_TRANSACTIONS = [
-  { id: 1, date: '2023-10-24', time: '14:22:10 UTC', entity: 'Goldman Sachs Dividend', category: 'Investments', amount: 12450.00, status: 'completed', type: 'income' },
-  { id: 2, date: '2023-10-23', time: '09:15:44 UTC', entity: 'Azure Cloud Services', category: 'Operations', amount: -3120.45, status: 'completed', type: 'expense' },
-  { id: 3, date: '2023-10-21', time: '18:05:12 UTC', entity: 'Q3 Tax Settlement', category: 'Taxation', amount: -45000.00, status: 'pending', type: 'expense' },
-  { id: 4, date: '2023-10-20', time: '11:30:00 UTC', entity: 'Equity Sale: AAPL', category: 'Investments', amount: 118240.10, status: 'completed', type: 'income' },
-  { id: 5, date: '2023-10-19', time: '16:45:22 UTC', entity: 'Morgan Stanley Lease', category: 'Real Estate', amount: -8500.00, status: 'completed', type: 'expense' },
-  { id: 6, date: '2023-10-18', time: '10:02:11 UTC', entity: 'Forex Adjustment', category: 'Treasury', amount: 1455.32, status: 'completed', type: 'income' },
+  { id: 1, date: '2024-03-24', time: '10:15:30 IST', entity: 'Monthly Salary', category: 'Salary', amount: 85000.00, status: 'completed', type: 'income' },
+  { id: 2, date: '2024-03-23', time: '14:22:15 IST', entity: 'Food Delivery: Biryani', category: 'Food & Dining', amount: -450.45, status: 'completed', type: 'expense' },
+  { id: 3, date: '2024-03-22', time: '09:05:12 IST', entity: 'Electronics Purchase', category: 'Shopping', amount: -12300.00, status: 'pending', type: 'expense' },
+  { id: 4, date: '2024-03-21', time: '18:30:00 IST', entity: 'Savings Account Interest', category: 'Investments', amount: 1240.10, status: 'completed', type: 'income' },
+  { id: 5, date: '2024-03-20', time: '11:45:22 IST', entity: 'Monthly House Rent', category: 'Housing', amount: -22500.00, status: 'completed', type: 'expense' },
+  { id: 6, date: '2024-03-19', time: '16:02:11 IST', entity: 'Work Commute: Cab', category: 'Transport', amount: -355.32, status: 'completed', type: 'expense' },
+  { id: 7, date: '2024-03-18', time: '20:15:44 IST', entity: 'Mobile Recharge', category: 'Utilities', amount: -749.00, status: 'completed', type: 'expense' },
+  { id: 8, date: '2024-03-17', time: '10:05:12 IST', entity: 'Freelance Final Payment', category: 'Income', amount: 15000.00, status: 'completed', type: 'income' },
+  { id: 9, date: '2024-03-16', time: '19:30:00 IST', entity: 'Streaming Subscription', category: 'Entertainment', amount: -499.00, status: 'completed', type: 'expense' },
+  { id: 10, date: '2024-03-15', time: '11:45:22 IST', entity: 'Gas Cylinder Booking', category: 'Utilities', amount: -950.00, status: 'completed', type: 'expense' },
 ];
 
 export const FinancialProvider = ({ children }) => {
